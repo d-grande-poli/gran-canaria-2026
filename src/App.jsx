@@ -66,7 +66,7 @@ Telefon 1: +34 692 17 30 25 | Telefon 2: +34 656 83 98 54
 Öffnungszeiten: täglich 08:00–23:00 Uhr
 Plätze: total 3 Kunstgras-Tennisplätze verfügbar (seit 2015), ca. 2 km vom Hauptstandort Holycan
 Buchung: 2 Courts gebucht, 14:00–17:00 Uhr
-Organisator: Dominik (Grande)
+Organisator: Dominik
 
 TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
 - 14:00–14:30: Court 1: Maxi vs. Sandro | Court 2: Döme vs. Luis
@@ -85,7 +85,7 @@ Telefon: +34 928 77 74 79
 Öffnungszeiten: täglich 08:30–18:30 Uhr
 Mietdauer: 8.–10. April (3 Tage)
 Velotage: Mittwoch 8. April und Freitag 10. April
-Organisator: Luis (Knuffi)
+Organisator: Luis
 
 VELOS PRO PERSON:
 - Luis (Knuffi): Specialized Roubaix SL8 Expert Rival eTAP, Gr. 58, SPD MTB, 156€/3 Tage (52€/Tag)
@@ -121,18 +121,18 @@ PROGNOSE UNSERE WOCHE (Langzeit, basierend auf Durchschnittswerten):
 KLIMADURCHSCHNITT APRIL: Max 22°C, Min 16°C, Sonnenstunden 8h/Tag, Wassertemperatur 18°C, Regentage 3 im Monat
 
 === STÄDTETRIP – SAMSTAG, 11. APRIL ===
-Organisator: Sandro (Bierli)
+Organisator: Sandro
 Ziel: Wahrscheinlich Las Palmas
 Format: Kein Free Walking Tour
 Option: Evtl. Brauerei-Besichtigung
 Status: Details folgen noch von Sandro
 
 === WANDERN – SONNTAG, 12. APRIL ===
-Organisator: Vujo (Joel)
+Organisator: Vujo
 Status: Details folgen noch von Vujo
 
 === TAG AUF DEM WASSER – DONNERSTAG, 9. APRIL ===
-Organisator: Maxi (Mäx)
+Organisator: Maxi
 Status: Details folgen noch von Maxi
 
 === HAUSREGELN ===

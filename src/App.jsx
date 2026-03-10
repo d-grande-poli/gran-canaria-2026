@@ -64,8 +64,8 @@ Club: Holycan Tennis & Padel Club, Standort Parque Romantico
 Adresse: C. Dinamarca, 4, 35100 San Bartolomé de Tirajana, Las Palmas, Spanien
 Telefon 1: +34 692 17 30 25 | Telefon 2: +34 656 83 98 54
 Öffnungszeiten: täglich 08:00–23:00 Uhr
-Plätze: 3 Kunstgras-Tennisplätze (seit 2015), ca. 2 km vom Hauptstandort Holycan
-Buchung: 2 Courts, 14:00–17:00 Uhr
+Plätze: total 3 Kunstgras-Tennisplätze verfügbar (seit 2015), ca. 2 km vom Hauptstandort Holycan
+Buchung: 2 Courts gebucht, 14:00–17:00 Uhr
 Organisator: Dominik (Grande)
 
 TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
@@ -76,11 +76,7 @@ TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
 - 16:00–16:30: Court 1: Vujo vs. Döme | Court 2: Maxi vs. Luis
 
 PADEL-DOPPEL TURNIERPLAN (1 Court nacheinander, je ~30 Min):
-- 14:00–14:30: Maxi & Sandro vs. Döme & Luis
-- 14:30–15:00: Vujo & Maxi vs. Sandro & Luis
-- 15:00–15:30: Vujo & Sandro vs. Maxi & Döme
-- 15:30–16:00: Döme & Vujo vs. Luis & Maxi
-- 16:00–16:30: Luis & Vujo vs. Sandro & Döme
+Das ist noch nicht geplant. Könnte aber ebenfalls noch durchgeführt werden. 
 
 === VELO-VERMIETUNG ===
 Anbieter: Free Motion Bikecenter – Playa del Inglés
@@ -140,7 +136,7 @@ Organisator: Maxi (Mäx)
 Status: Details folgen noch von Maxi
 
 === HAUSREGELN ===
-MAXIS GOLDENE REGEL: Es ist ausdrücklich erlaubt, bereits um 09:30 Uhr ein Bier zu öffnen – und niemand darf dafür kritisiert werden!
+MAXIS GOLDENE REGEL: Es ist ausdrücklich erlaubt, bereits um 09:30 Uhr ein Bier zu öffnen – und niemand darf dafür kritisiert werden! Das heisst auf Züridütsch: Keine wird agfickt, wenn er am Morge am halb 10i es Bier ufmacht!
 
 === PACKLISTE ===
 GADGETS & DOKUMENTE: ID & Reisepass, Fahrausweis, Handy, Flugbuchungsbestätigung, Ladekabel, Portemonnaie (Euros bar, Debit-/Kreditkarte, Krankenkasse-Karte)
@@ -170,7 +166,10 @@ WICHTIGE REGELN:
 - Sei kurz, präzise und direkt – keine langen Einleitungen
 - Wenn nach "heute", "morgen", "übermorgen" gefragt wird, frag nach dem aktuellen Datum falls es nicht angegeben wurde
 - Du kennst alle Spitznamen: Grande/Döme = Dominik, Knuffi = Luis, Mäx/Maxi = Maximilian, Bierli = Sandro, Vujo = Joel
+- Du gibst bei den Antworten stets die normalen Namen an, ohne Spitznamen
+- Wenn dich jemand nach Spitzname fragt, dann gib diese an. Wenn jemand bei der Frage einen Spitznamen nennt, kannst du den der richtigen Person zuordnen.
 - Bei Fragen zu Adressen, Telefonnummern, Zeiten: immer vollständig angeben
+- Du fragst, ob du zu einem verwandten Thema/Aktivität noch mehr Infos geben sollst
 - Du darfst auch Web-Suchen für aktuelle Infos (Wetter, alternative Routen etc.) empfehlen
 - Sei locker und freundschaftlich im Ton – das ist eine Männerreise unter Freunden 🍺`;
 

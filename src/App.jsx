@@ -205,48 +205,16 @@ export default function GranCanariaApp() {
     setLoading(true);
 
     try {
-      // Auf Vercel: /api/chat Serverless Function verwenden
-      // Im Claude Artifact / lokaler Entwicklung: direkt Anthropic API aufrufen
-      const isVercel = typeof window !== "undefined" &&
-        (window.location.hostname.endsWith(".vercel.app") ||
-         window.location.hostname.endsWith(".vercel.com") ||
-         (!window.location.hostname.includes("claude.ai") &&
-          !window.location.hostname.includes("localhost") &&
-          window.location.hostname !== ""));
-
-      let response;
-      if (isVercel) {
-        response = await fetch("/api/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            model: "claude-sonnet-4-20250514",
-            max_tokens: 1000,
-            system: SYSTEM_PROMPT,
-            messages: newMessages,
-          }),
-        });
-      } else {
-        // Direkter API-Call für Claude Artifact Preview & lokale Entwicklung
-        const apiKey = typeof import !== "undefined" && import.meta?.env?.VITE_ANTHROPIC_API_KEY
-          ? import.meta.env.VITE_ANTHROPIC_API_KEY
-          : "";
-        response = await fetch("https://api.anthropic.com/v1/messages", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "x-api-key": apiKey,
-            "anthropic-version": "2023-06-01",
-            "anthropic-dangerous-direct-browser-access": "true",
-          },
-          body: JSON.stringify({
-            model: "claude-sonnet-4-20250514",
-            max_tokens: 1000,
-            system: SYSTEM_PROMPT,
-            messages: newMessages,
-          }),
-        });
-      }
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model: "claude-sonnet-4-20250514",
+          max_tokens: 1000,
+          system: SYSTEM_PROMPT,
+          messages: newMessages,
+        }),
+      });
 
       const data = await response.json();
       const reply = data.content?.map(b => b.text || "").join("") || "Fehler beim Laden.";

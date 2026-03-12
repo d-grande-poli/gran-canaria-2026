@@ -12,6 +12,13 @@ Destination: Maspalomas / Playa del Inglés, Gran Canaria, Spanien
 - Sandro Bieri | Spitzname: Bierli | Verantwortlich: Städtetrip (Organisator) | Velo-Klick-Schuhe: JA | Velo: BH SL1 105 Di2, Gr. LG, SPD MTB Pedale, 183cm/72kg
 - Joel Pascal Vuilleumier | Spitzname: Vujo, Vujo Gavric | Verantwortlich: Wandern (Organisator) | Velo-Klick-Schuhe: NEIN (Standard-Pedale) | Velo: BH SL1 105 Di2, Gr. LG, Standard Pedale, 183cm/78kg
 
+PERSÖNLICHE INFOS ZU DEN 5 JUNGS:
+Dominik (Grande/Döme): Wohnt mit seiner Freundin an der Birmensdorferstrasse 32, 8004 Zürich (Kreis 4). Besucht einen Spanisch-Kurs an der Migros Klubschule (A1, 1/3 durch). Interessen: Geopolitik, Fussball (grosser FCZ-Fan), Eishockey (spielt selbst, Fan von HC Davos). Mag auch Golf. Hasst GC (Grasshopper) und FC Basel.
+Luis (Knuffi): Wohnt mit seiner Freundin an der Hardstrasse 75, Zürich. Sehr intelligent, war im Gymi und Studium manchmal ein Streber. Grosser FC Bayern München Fan. Hobbys: Gravel-Bike, Tauchen, NFL (Fan der New England Patriots). Findet Schweizer Fussball öde, ist aber noch am ehesten FCZ-Sympathisant.
+Maxi (Mäx): Wohnt in Oerlikon, Freundin auch in Oerlikon aber nicht zusammen. Grosser Fan der Kloten Flyers (Eishockey), spielt seit Langem Unihockey (als Goalie). FCZ-Fan. Hasst GC (Grasshopper Club Niederhasli / GCN) und Basel. Interessiert sich für Wirtschaftsinformatik. Mag Sprüche über dumme, rechte Politiker.
+Sandro (Bierli): Sehr studiert und klug. Liest gerne viel (Bücher und Zeitungen). Fan des FC Basel. Hasst GCN ebenfalls. Wohnt mit seiner Freundin in Baden (Aargau!). Spricht gut Spanisch, etwas Französisch und natürlich Englisch. Spielt selbst Faustball.
+Vujo (Joel): Wird von allen nur Vujo genannt. Wohnt in Genf seit seinem Bachelor-Studium, wird mal Anwalt. Spricht perfekt Französisch und Australian English, ein wenig Spanisch. Fan der ZSC Lions (Eishockey), spielte lange Unihockey. Rennt auch ausser Form sehr schnelle Jogging-Zeiten. Freundin wohnt in Yverdon.
+
 === FLÜGE ===
 HINFLUG:
 - Flugnummer: LX8200 | Airline: Edelweiss Air (Swiss-Partner) | Flugzeug: Airbus A320
@@ -35,6 +42,23 @@ BOLT-FAHRT ZUM FLUGHAFEN (6. April):
 - 04:30 Uhr: Ankunft Flughafen Zürich, Check-in Terminal 1
 - Status: Bolt bereits vorbestellt
 
+=== ANKUNFT LPA & ZEITPLAN ERSTER TAG (6. APRIL) ===
+Landung: 09:40 Uhr Ortszeit
+Nach der Landung realistischer Zeitplan:
+- Gepäck holen + Ausgang: dauert 35–55 Minuten
+- Best case beim Mietwagen-Schalter: ~10:15 Uhr
+- Normal: ~10:25–10:35 Uhr
+- Wenn viele Flüge gleichzeitig: ~10:45 Uhr
+- Realistisch am Schalter: 10:20–10:35 Uhr
+Mietwagen-Prozess:
+- Schalter erreichen: ~10:20–10:35 Uhr
+- Auto übernehmen (Formalitäten): ~10:40–11:05 Uhr
+- Realistisch im Auto sitzen: zwischen 10:45 und 11:00 Uhr
+- Fahrt zum Bungalow (Santa Clara Bungalows): ca. 25 Minuten
+- Realistisch beim Bungalow: ~11:10–11:30 Uhr
+- Check-in erst ab 16:00 Uhr → ca. 4.5–5h Wartezeit mit Gepäck
+HINWEIS: Mietwagen ist offiziell ab 10:00 Uhr gebucht, aber da der Flug erst um 09:40 landet, ist eine Ankunft vor 10:20 am Schalter unrealistisch. TopCar ist informiert (Flugnummer LX8200 hinterlegt).
+
 === UNTERKUNFT ===
 Name: Santa Clara Bungalows
 Adresse: Calle Noruega No. 1, 35100 Maspalomas, San Bartolomé de Tirajana, Spanien
@@ -46,7 +70,6 @@ Preis: CHF 1'011.14 | Bewertung: 9.6/10 (39 Bewertungen, "außergewöhnlich")
 Gesprochene Sprachen: Deutsch, Englisch, Spanisch
 AUSSTATTUNG: 2 Outdoor-Pools (kostenlos, ganzjährig, Poolbar, Sonnenstühle), WLAN gratis, Voll ausgestattete Küche (Kaffeemaschine, Backofen, Geschirrspüler, Mikrowelle, Kühlschrank), Waschmaschine/Trockner, Terrasse rund um Unterkunft, Garten, Grillmöglichkeiten, Bar & Restaurant auf Gelände, Klimaanlage, TV, Bügeleisen, Privater Eingang, Spielzimmer, Kinderspielplatz, 24h Sicherheit
 UMGEBUNG: Strand Playa del Inglés ca. 20 min zu Fuss, Shops und Restaurants kurze Gehdistanz, Flughafen 27km entfernt
-WICHTIG: Mietwagen-Abholung 10:00 Uhr, Check-in erst ab 16:00 → 6h Wartezeit!
 
 === MIETWAGEN ===
 Buchungsnummer: 785000655
@@ -54,7 +77,7 @@ Fahrzeug: Volkswagen T-Roc (oder ähnlich), Automatik, 5 Türen, 5 Sitze
 Vermieter: TopCar | Standort: On Airport, Desk im Terminal
 Abholung & Rückgabe: Carretera de Gando, Aeropuerto de Gran Canaria, Las Palmas, 35230
 Telefon: +34 828 913 118
-Abholung: Montag, 6. April, 10:00 Uhr | Rückgabe: Montag, 13. April, 10:00 Uhr
+Abholung: Montag, 6. April, 10:00 Uhr (realistisch 10:20–10:35) | Rückgabe: Montag, 13. April, 10:00 Uhr
 Hauptfahrer: Dominik Roger Gross | Hinterlegte Flugnummer: LX8200
 KOSTEN: Mietpreis 198.02 CHF, Genius-Rabatt −19.80 CHF, Versicherung 96.37 CHF = Bereits bezahlt: 274.59 CHF. Noch vor Ort: 2x Zusatzfahrer = 117.04 CHF / 126 EUR. Total ca. 391.63 CHF.
 WICHTIG: 2 Zusatzfahrer vor Ort bezahlen (126 EUR)! Führerschein, Kreditkarte, Reisepass mitbringen.
@@ -64,9 +87,9 @@ Club: Holycan Tennis & Padel Club, Standort Parque Romantico
 Adresse: C. Dinamarca, 4, 35100 San Bartolomé de Tirajana, Las Palmas, Spanien
 Telefon 1: +34 692 17 30 25 | Telefon 2: +34 656 83 98 54
 Öffnungszeiten: täglich 08:00–23:00 Uhr
-Plätze: total 3 Kunstgras-Tennisplätze verfügbar (seit 2015), ca. 2 km vom Hauptstandort Holycan
-Buchung: 2 Courts gebucht, 14:00–17:00 Uhr
-Organisator: Dominik
+Plätze: 3 Kunstgras-Tennisplätze (seit 2015), ca. 2 km vom Hauptstandort Holycan
+Buchung: 2 Courts, 14:00–17:00 Uhr
+Organisator: Dominik (Grande)
 
 TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
 - 14:00–14:30: Court 1: Maxi vs. Sandro | Court 2: Döme vs. Luis
@@ -76,7 +99,11 @@ TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
 - 16:00–16:30: Court 1: Vujo vs. Döme | Court 2: Maxi vs. Luis
 
 PADEL-DOPPEL TURNIERPLAN (1 Court nacheinander, je ~30 Min):
-Das ist noch nicht geplant. Könnte aber ebenfalls noch durchgeführt werden. 
+- 14:00–14:30: Maxi & Sandro vs. Döme & Luis
+- 14:30–15:00: Vujo & Maxi vs. Sandro & Luis
+- 15:00–15:30: Vujo & Sandro vs. Maxi & Döme
+- 15:30–16:00: Döme & Vujo vs. Luis & Maxi
+- 16:00–16:30: Luis & Vujo vs. Sandro & Döme
 
 === VELO-VERMIETUNG ===
 Anbieter: Free Motion Bikecenter – Playa del Inglés
@@ -85,7 +112,7 @@ Telefon: +34 928 77 74 79
 Öffnungszeiten: täglich 08:30–18:30 Uhr
 Mietdauer: 8.–10. April (3 Tage)
 Velotage: Mittwoch 8. April und Freitag 10. April
-Organisator: Luis
+Organisator: Luis (Knuffi)
 
 VELOS PRO PERSON:
 - Luis (Knuffi): Specialized Roubaix SL8 Expert Rival eTAP, Gr. 58, SPD MTB, 156€/3 Tage (52€/Tag)
@@ -101,15 +128,77 @@ SPECIALIZED ROUBAIX SL8 EXPERT RIVAL eTAP TECHNISCHE SPECS (Luis): All-Road Endu
 
 KLICK-SCHUHE: Luis ✅, Sandro ✅, Dominik ✅ | Vujo ❌, Maxi ❌ (Standard-Pedale gebucht)
 
-MÖGLICHE VELOROUTEN (von Luis):
-1. Gran Canaria Soria – Küste: 57.3 km | strava.com/routes/3459835235290630516
-2. Gran Canaria Soria – Halfway up: 53.5 km | strava.com/routes/3459837737030183184
-3. Gran Canaria Ayagaures Loop & Coastal Road: 55.2 km | strava.com/routes/3459829122571038162
+=== STRAVA-FITNESSDATEN DER FAHRER ===
+
+LUIS (Knuffi) – Strava-Stats:
+4-Wochen-Schnitt: 10 Aktivitäten/Woche, 40.6 km/Woche, 392 Hm/Woche, 1h 41min/Woche
+Bestzeiten: Längste Fahrt 60.2 km, Grösster Anstieg 81 m (4W) / 808 m (gesamt)
+Bestzeiten Distanzen: 5 Meilen: 15:10 | 10 km: 19:31 | 10 Meilen: 35:08 | 20 km: 45:14 | 30 km: 1:14:55 | 40 km: 1:58:13 | 50 km: 3:38:30
+Monat: 181 Aktivitäten, 456.1 km, 4'952 Hm, 19h 30min
+Gesamt: 401 Aktivitäten, 987.2 km, 8'854 Hm, 40h 49min
+EINSCHÄTZUNG LUIS: Aktiver, gut trainierter Hobbyfahrer. Schnitt ~21–22 km/h auf flachen bis mittleren Strecken. Gut konditioniert für die Routen auf Gran Canaria.
+
+SANDRO (Bierli) – Strava-Stats:
+4-Wochen-Schnitt: 0 Aktivitäten/Woche (kaum aktuelles Training!), 11.7 km/Woche, 124 Hm/Woche, 27min 18s/Woche
+Bestzeiten: Längste Fahrt 123.2 km, Grösster Anstieg 1'067 m (4W) / 808 m Vergleich
+Bestzeiten Distanzen: 5 Meilen: 10:33 | 10 km: 13:36 | 10 Meilen: 28:01 | 20 km: 37:28 | 30 km: 1:03:20 | 40 km: 1:27:20 | 50 km: 1:54:26 | 80 km: 3:10:38 | 100 km: 4:17:30
+Monat: 2 Aktivitäten, 75.9 km, 868 Hm, 3h 0min
+Gesamt: 58 Aktivitäten, 2'990.1 km, 40'679 Hm, 131h 11min
+EINSCHÄTZUNG SANDRO: Auf dem Papier sehr stark (100 km in 4:17h = ~23 km/h, 40'679 Hm Gesamterfahrung!), erfahrener Bergfahrer. Aber: derzeit kaum aktiv (0 Aktivitäten in 4 Wochen). Kondition aktuell unklar – könnte überraschen oder auch leiden.
+
+=== VELOROUTEN (von Luis) ===
+
+ROUTE 1 – Gran Canaria Soria – Küste:
+Distanz: 57.39 km | Höhenmeter: 843 m | Geschätzte Zeit: 3:07:32
+Strava: strava.com/routes/3459835235290630516
+Charakter: Küstenroute mit mehreren Anstiegen bis 12.3% (Bahia de Santa Agueda), anspruchsvoll
+Steilste Segmente: Bahia de Santa Agueda Climb 12.3%, El Pajar Climb 15.2%, Avenida Puerto Grande 16.0%
+Für Luis (basierend auf Strava): ca. 2:30–2:50h realistisch
+Für Gruppe (gemischtes Niveau): ca. 3:00–3:30h
+
+ROUTE 2 – Gran Canaria Soria – Halfway up:
+Distanz: 53.52 km | Höhenmeter: 615 m | Geschätzte Zeit: 2:54:53
+Strava: strava.com/routes/3459837737030183184
+Charakter: Sanftere Variante, ins Soria-Tal hinein aber nicht bis ganz oben. GC-505 Climb mit 19.6% (!), aber kürzer. Gut für gemischtes Niveau.
+Steilstes Segment: GC-505 Climb 19.6% (0.71 km), aber auch 12.8% Variante
+Für Luis: ca. 2:20–2:40h | Für Gruppe: ca. 2:45–3:10h
+
+ROUTE 3 – Gran Canaria Ayagaures Loop & Coastal Road:
+Distanz: 55.27 km | Höhenmeter: 940 m | Geschätzte Zeit: 3:00:37
+Strava: strava.com/routes/3459829122571038162
+Charakter: Härteste Route. Ayagaures-Tal mit 2.5% Schnittsteigung, Palmitos Climb 3.6%, GC503 bis 7.9%, Wall to Se Vende sign 9.4%. Schön und abwechslungsreich.
+Steilstes Segment: Wall to Se Vende sign 9.4% (0.89 km), GC503 Pässli 7.9%
+Für Luis: ca. 2:45–3:00h | Für Gruppe: ca. 3:00–3:45h
+
+TEMPO-SCHÄTZUNGEN FÜR DIE GRUPPE:
+- Luis: ~21–22 km/h Schnitt, fit und regelmässig trainiert
+- Sandro: Potentiell schnell (historisch 23+ km/h), aber aktuell wenig trainiert – Wildcard!
+- Dominik, Maxi, Vujo: Tempo unklar, da keine Strava-Daten vorhanden
+- Gruppenregel: Niemanden hängen lassen, Tempo nach dem Langsamsten
 
 === RESTAURANTS (Fisch & Paella, EUR 20–30 p.P.) ===
 1. Restaurante Velero Casa Antonio | Bewertung: 4.4★ (1'617 Bewertungen) | Stil: Mediterran, Strandlokal, Paella/Pizza/Cocktails, lichtdurchflutet | Adresse: Boulevard El Faro, P.º del Faro, 22, 35100 Maspalomas | Tel: +34 928 14 11 53 | Öffnung: bis 22:00 | Preis: EUR 20–30 p.P. | Web: restaurantevelerocasaantonio.shop
 2. La Proa Casa Reyes | Bewertung: 4.4★ (768 Bewertungen) | Adresse: C. Mar Blanco, S/N, 35100 Las Palmas | Tel: +34 928 14 24 03 | Öffnung: bis 23:00 | Preis: EUR 20–30 p.P.
 3. Restaurante La Ciudadela | Bewertung: 4.4★ (2'499 Bewertungen) | Stil: Mediterran | Adresse: Anexo 2, Av. de la Playa, S/N, 35100 San Bartolomé de Tirajana | Tel: +34 928 76 32 58 | Öffnung: bis 22:30 | Preis: EUR 20–30 p.P.
+
+=== NIGHTLIFE & BARS – MASPALOMAS / PLAYA DEL INGLÉS ===
+Allgemein: Bars offen bis 02:00 Uhr, Clubs bis 06:00 Uhr. Bestes Gebiet: Maspalomas und Playa del Inglés. Viele Clubs in Shoppingcentern (z.B. Yumbo).
+TOP CLUBS: Pachá, Ozono, Aqua (Superclubs, internationale DJs, Terrassen)
+SHOPPINGCENTER-NIGHTLIFE: Centro Comercial Yumbo (legendär, Gay Village, Drag-Shows, Kabarett), Kasbah, Plaza (bis Morgengrauen)
+BARS & PUBS:
+- Al's Bar (Gran Chaparral Centre, Playa del Inglés): Live-Musik, Karaoke, Bingo, Live-Sport, Draught Beer & Strongbow, Happy Hour 19–21 Uhr
+- Strand-apo-Theke: Kultbar direkt am Maspalomas-Strand, neben dem Leuchtturm – Füsse im Sand, kaltes Bier in der Hand
+- Six Pack Zone (Yumbo Center): Wichtigstes Nightlife-Epizentrum im Süden, unteres Level Nordwest
+- Restaurant Peater's (Cita Shopping Center, Maspalomas): Musik-Legendenthema, Nachfolger des legendären Westfalia
+- That's Amore (ex Ciao Ciao, Playa del Inglés): Live-Musik, Cocktails, Italian/Spanish Flair
+RESTAURANT-BARS:
+- Ristorante La Piazza (Playa del Inglés): Direkt am Strand, fast täglich Live-Musik (Jazz, Latin, Rock)
+- Restaurante Que Pasa Tío...? (Playa del Inglés): Authentische Italienische Küche, Insider-Tipp
+- Café Bolle Jan (Playa del Inglés): Holländisch-internationales Café, gemütlich
+- IL MIO CAFFÉ (Playa del Inglés): Authentische Pinza Romana, guter Kaffee
+- Café Mozart 2 (Playa del Inglés): Deutsches Frühstück/Brunch, Schwarzwälder Kirschtorte
+GEHEIMTIPP: Club Maroa auf der herzförmigen Anfi Island – grösste Freizeitterrasse der Kanarischen Inseln, Strandliegen, Cocktails
+MELONERAS: Mehrere Pubs & Bars an der Promenade beim Maspalomas-Leuchtturm
 
 === WETTER GRAN CANARIA APRIL ===
 PROGNOSE UNSERE WOCHE (Langzeit, basierend auf Durchschnittswerten):
@@ -121,22 +210,22 @@ PROGNOSE UNSERE WOCHE (Langzeit, basierend auf Durchschnittswerten):
 KLIMADURCHSCHNITT APRIL: Max 22°C, Min 16°C, Sonnenstunden 8h/Tag, Wassertemperatur 18°C, Regentage 3 im Monat
 
 === STÄDTETRIP – SAMSTAG, 11. APRIL ===
-Organisator: Sandro
+Organisator: Sandro (Bierli)
 Ziel: Wahrscheinlich Las Palmas
 Format: Kein Free Walking Tour
 Option: Evtl. Brauerei-Besichtigung
 Status: Details folgen noch von Sandro
 
 === WANDERN – SONNTAG, 12. APRIL ===
-Organisator: Vujo
+Organisator: Vujo (Joel)
 Status: Details folgen noch von Vujo
 
 === TAG AUF DEM WASSER – DONNERSTAG, 9. APRIL ===
-Organisator: Maxi
+Organisator: Maxi (Mäx)
 Status: Details folgen noch von Maxi
 
 === HAUSREGELN ===
-MAXIS GOLDENE REGEL: Es ist ausdrücklich erlaubt, bereits um 09:30 Uhr ein Bier zu öffnen – und niemand darf dafür kritisiert werden! Das heisst auf Züridütsch: Keine wird agfickt, wenn er am Morge am halb 10i es Bier ufmacht!
+MAXIS GOLDENE REGEL: Es ist ausdrücklich erlaubt, bereits um 09:30 Uhr ein Bier zu öffnen – und niemand darf dafür kritisiert werden!
 
 === PACKLISTE ===
 GADGETS & DOKUMENTE: ID & Reisepass, Fahrausweis, Handy, Flugbuchungsbestätigung, Ladekabel, Portemonnaie (Euros bar, Debit-/Kreditkarte, Krankenkasse-Karte)
@@ -155,23 +244,56 @@ Tennis Parque Romantico: +34 692 17 30 25 / +34 656 83 98 54
 Dominik: +41 79 863 21 57
 `;
 
-const SYSTEM_PROMPT = `Du bist der persönliche Reiseassistent für eine Gruppe von 5 Freunden auf Gran Canaria (6.–13. April 2026). 
+const SYSTEM_PROMPT = `Du bist der persönliche Reiseassistent für eine Gruppe von 5 Freunden auf Gran Canaria (6.–13. April 2026).
 
 Hier sind ALLE Reiseinfos:
 
 ${TRAVEL_DATA}
 
-WICHTIGE REGELN:
+=== WICHTIGE VERHALTENSREGELN ===
+
+SPRACHE & TON:
 - Antworte immer auf Deutsch (ausser jemand fragt auf Englisch)
+- Sei locker, freundschaftlich und humorvoll – das ist eine Männerreise unter guten Freunden 🍺
+- Tu so, als würdest du die Gruppe seit Jahren kennen
+- Wiederhole Running Gags nicht zu oft – Abwechslung ist der Schlüssel
+
+INFORMATIONEN:
 - Sei kurz, präzise und direkt – keine langen Einleitungen
-- Wenn nach "heute", "morgen", "übermorgen" gefragt wird, frag nach dem aktuellen Datum falls es nicht angegeben wurde
-- Du kennst alle Spitznamen: Grande/Döme = Dominik, Knuffi = Luis, Mäx/Maxi = Maximilian, Bierli = Sandro, Vujo = Joel
-- Du gibst bei den Antworten stets die normalen Namen an, ohne Spitznamen
-- Wenn dich jemand nach Spitzname fragt, dann gib diese an. Wenn jemand bei der Frage einen Spitznamen nennt, kannst du den der richtigen Person zuordnen.
-- Bei Fragen zu Adressen, Telefonnummern, Zeiten: immer vollständig angeben
-- Du fragst, ob du zu einem verwandten Thema/Aktivität noch mehr Infos geben sollst
-- Du darfst auch Web-Suchen für aktuelle Infos (Wetter, alternative Routen etc.) empfehlen
-- Sei locker und freundschaftlich im Ton – das ist eine Männerreise unter Freunden 🍺`;
+- Bei ernsten Fragen (Zeiten, Adressen, Buchungen): ERST die korrekte Info, DANN optional ein Kommentar
+- Wenn eine Information nicht hinterlegt ist, sag das ehrlich – aber gerne mit einem witzigen Kommentar
+- Wenn nach "heute", "morgen", "übermorgen" gefragt wird, frag nach dem aktuellen Datum falls nicht angegeben
+- Bei Adressen, Telefonnummern, Zeiten: immer vollständig angeben
+- Du darfst auch Web-Suchen für aktuelle Infos empfehlen (Wetter, aktuelle Öffnungszeiten etc.)
+
+HUMOR & CHARAKTER:
+- Du darfst frech sein, aber NIEMALS beleidigend oder unangenehm
+- Wenn jemand eine offensichtliche Frage stellt, darfst du ihn freundschaftlich aufziehen:
+  → "Hast du zu viel Bier getrunken, dass du nicht mehr weisst, wann ihr Tennis habt? 😄"
+  → "Die Info steht sogar im Plan – aber ich helfe dir natürlich trotzdem."
+- Baue gelegentlich kleine, passende Infos über die Jungs ein – aber bleib geheimnisvoll wenn jemand direkt fragt
+- Mache mal einen lustigen Kommentar zu einem der Reisenden, wenn es sich ergibt:
+  → z.B. bei Velofragen: "Luis hat die Route wahrscheinlich schon dreimal auf Strava analysiert."
+  → z.B. bei Packliste: "Denk dran – Maxi braucht sein Deo. Unbedingt."
+  → z.B. bei Sandro: "Sandro hat das sicher schon in drei Büchern nachgelesen, bevor er gefragt hat."
+  → z.B. bei Vujo: "Frag Vujo – der antwortet dir wahrscheinlich auf Französisch oder Australian English."
+- Erwähne gelegentlich Gruppeninterna/Beobachtungen:
+  → "Ich bin gespannt wer dieses Mal wieder als Letzter aus dem Bett kommt."
+  → "Bei 5 Jungs und einem Doppelbett wird die Zimmerfrage interessant..."
+
+SPITZNAMEN – immer verwenden:
+Grande / Döme = Dominik | Knuffi = Luis | Mäx / Maxi = Maximilian | Bierli = Sandro | Vujo = Joel
+
+VELO & STRAVA:
+- Wenn nach Tempo oder Dauer für eine Route gefragt wird, ziehe Luis' und Sandros Strava-Daten heran
+- Sandro ist auf dem Papier schneller als Luis (historisch), aber aktuell kaum trainiert – das ist eine Wildcard
+- Für die anderen drei (Döme, Maxi, Vujo) gibt es keine Strava-Daten – Tempo unbekannt
+
+FUSSBALL-WISSEN (subtil einbauen wenn passend):
+- Döme und Maxi sind FCZ-Fans | Sandro ist Basel-Fan (aber hasst GCN wie alle ausser Sandro-eigene Meinung)
+- Luis mag Bayern München | Vujo ist kein ausgeprägter Fussballfan
+- GC (Grasshopper) ist bei fast allen unbeliebt – das ist immer gutes Stoff für einen Witz
+- Sandro mag Basel – das kann man bei anderen (Döme, Maxi) auch mal einwerfen`;
 
 export default function GranCanariaApp() {
   const [messages, setMessages] = useState([]);
@@ -186,12 +308,12 @@ export default function GranCanariaApp() {
 
   const suggestions = [
     "Was ist heute geplant? (heute = Mi, 8. April)",
-    "Wo holen wir die Velos ab und wann?",
+    "Wie lange dauert Route 1 für unsere Gruppe?",
+    "Wann sind wir realistisch beim Bungalow?",
     "Wer spielt wann Tennis gegen wen?",
-    "Wie lautet die Adresse der Unterkunft?",
     "Was kostet der Mietwagen total?",
+    "Wo können wir abends feiern gehen?",
     "Welche Restaurants empfehlt ihr für Fisch?",
-    "Wann müssen wir morgen früh aufstehen? (heute = So, 12. April)",
     "Was ist Maxis Goldene Regel?",
   ];
 

@@ -1,5 +1,28 @@
 import { useState, useRef, useEffect } from "react";
 
+// Einfacher Markdown-Renderer (fett, kursiv, inline-code, Links, Zeilenumbrüche)
+function renderMarkdown(text) {
+  const lines = text.split("\n");
+  return lines.map((line, i) => {
+    const parts = [];
+    const regex = /(\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*|\*(.+?)\*|`(.+?)`|\[(.+?)\]\((https?:\/\/[^\)]+)\)|(https?:\/\/[^\s]+))/g;
+    let last = 0;
+    let match;
+    while ((match = regex.exec(line)) !== null) {
+      if (match.index > last) parts.push(line.slice(last, match.index));
+      if (match[2]) parts.push(<strong key={match.index}><em>{match[2]}</em></strong>);
+      else if (match[3]) parts.push(<strong key={match.index}>{match[3]}</strong>);
+      else if (match[4]) parts.push(<em key={match.index}>{match[4]}</em>);
+      else if (match[5]) parts.push(<code key={match.index} style={{ background: "rgba(255,255,255,0.12)", borderRadius: 4, padding: "1px 5px", fontFamily: "monospace", fontSize: 13 }}>{match[5]}</code>);
+      else if (match[6]) parts.push(<a key={match.index} href={match[7]} target="_blank" rel="noopener noreferrer" style={{ color: "#f5d87a", textDecoration: "underline" }}>{match[6]}</a>);
+      else if (match[8]) parts.push(<a key={match.index} href={match[8].startsWith("http") ? match[8] : "https://" + match[8]} target="_blank" rel="noopener noreferrer" style={{ color: "#f5d87a", textDecoration: "underline" }}>{match[8]}</a>);
+      last = match.index + match[0].length;
+    }
+    if (last < line.length) parts.push(line.slice(last));
+    return <span key={i}>{parts}{i < lines.length - 1 && <br />}</span>;
+  });
+}
+
 const TRAVEL_DATA = `
 === GRAN CANARIA REISE 2026 – VOLLSTÄNDIGE INFORMATIONEN ===
 Reisedaten: 6. bis 13. April 2026
@@ -105,7 +128,19 @@ PADEL-DOPPEL TURNIERPLAN (1 Court nacheinander, je ~30 Min):
 - 15:30–16:00: Döme & Vujo vs. Luis & Maxi
 - 16:00–16:30: Luis & Vujo vs. Sandro & Döme
 
-=== VELO-VERMIETUNG ===
+=== CHAMPIONS LEAGUE – DIENSTAG, 7. APRIL ===
+Spiel: UEFA Champions League Viertelfinale Hinspiel – Real Madrid vs. FC Bayern München
+Anpfiff: 21:00 Uhr Ortszeit (Gran Canaria = gleiche Zeitzone wie Spanien/Madrid)
+Kontext: Luis ist leidenschaftlicher Bayern-Fan seit Kindheit, hat schon viele Spiele live in der Allianz Arena gesehen. Für ihn ist das ein absolutes Pflichtprogramm!
+HISTORISCHES TRAUMA LUIS: CL-Finale 2012 in München (Allianz Arena!) – Bayern verlor gegen Chelsea im Elfmeterschiessen. Didier Drogba erzielte den Ausgleich in der 88. Minute und schoss den entscheidenden Elfmeter. Schweini verschoss seinen Penalty. Für Luis und alle Bayern-Fans ein bitterer Abend.
+
+SPORTBARS ZUM SCHAUEN:
+1. SportsBar Kölsches Eck | Bewertung: 4.6★ (337 Bewertungen) | Adresse: CC, Avenida de Gran Canaria, Jardin del Sol, 1D, 35100 Maspalomas | Tel: +34 610 60 25 97 | Öffnung: 17:00–00:00 | Preis: EUR 10–20 p.P. | Web: https://koelsches-eck.net
+2. The Red Cow & Shenanigans | Bewertung: 4.3★ (2'089 Bewertungen) | Stil: Restaurant, Sport Lounge & Fun Pub | Adresse: Shopping Centre Prisma, Av. de España 7, Etage G, 35100 Playa del Inglés | Tel: +34 669 23 31 07 | Öffnung: 10:00–02:00 | Preis: EUR 10–20 p.P.
+3. The Harrow Sport Bar | Bewertung: 3.8★ (387 Bewertungen) | Adresse: Holiday World, Sonnenland, Etage 1, Holidayworld Maspalomas Center, 35100 Maspalomas | Öffnung: 17:30–21:00 | Preis: EUR 10–20 p.P.
+EMPFEHLUNG: Kölsches Eck (beste Bewertung, bis Mitternacht offen) oder Red Cow (grösser, mehr Atmosphäre, länger offen)
+
+
 Anbieter: Free Motion Bikecenter – Playa del Inglés
 Adresse: Av. 8 de Marzo, S/N, 35100 Playa del Inglés, Las Palmas, Spanien
 Telefon: +34 928 77 74 79
@@ -176,10 +211,49 @@ TEMPO-SCHÄTZUNGEN FÜR DIE GRUPPE:
 - Dominik, Maxi, Vujo: Tempo unklar, da keine Strava-Daten vorhanden
 - Gruppenregel: Niemanden hängen lassen, Tempo nach dem Langsamsten
 
-=== RESTAURANTS (Fisch & Paella, EUR 20–30 p.P.) ===
-1. Restaurante Velero Casa Antonio | Bewertung: 4.4★ (1'617 Bewertungen) | Stil: Mediterran, Strandlokal, Paella/Pizza/Cocktails, lichtdurchflutet | Adresse: Boulevard El Faro, P.º del Faro, 22, 35100 Maspalomas | Tel: +34 928 14 11 53 | Öffnung: bis 22:00 | Preis: EUR 20–30 p.P. | Web: restaurantevelerocasaantonio.shop
+=== RESTAURANTS ===
+WICHTIG – ESSGEWOHNHEITEN: Es muss nicht immer Fleisch sein! Luis ist vegetarisch, isst aber Fisch. Die anderen vier essen alles.
+
+FISCH & PAELLA (EUR 20–30 p.P.):
+1. Restaurante Velero Casa Antonio | Bewertung: 4.4★ (1'617 Bewertungen) | Stil: Mediterran, Strandlokal, Paella/Pizza/Cocktails, lichtdurchflutet | Adresse: Boulevard El Faro, P.º del Faro, 22, 35100 Maspalomas | Tel: +34 928 14 11 53 | Öffnung: bis 22:00 | Preis: EUR 20–30 p.P. | Web: https://restaurantevelerocasaantonio.shop
 2. La Proa Casa Reyes | Bewertung: 4.4★ (768 Bewertungen) | Adresse: C. Mar Blanco, S/N, 35100 Las Palmas | Tel: +34 928 14 24 03 | Öffnung: bis 23:00 | Preis: EUR 20–30 p.P.
 3. Restaurante La Ciudadela | Bewertung: 4.4★ (2'499 Bewertungen) | Stil: Mediterran | Adresse: Anexo 2, Av. de la Playa, S/N, 35100 San Bartolomé de Tirajana | Tel: +34 928 76 32 58 | Öffnung: bis 22:30 | Preis: EUR 20–30 p.P.
+
+TAPAS (gut für die ganze Gruppe, auch für Luis als Vegetarier/Fischesser):
+
+4. El Rinconcito Andaluz
+Bewertung: 4.8★ (645 Bewertungen) | Stil: Authentische Tapas, Einheimischen-Lokal, familiär
+Adresse: Av. de Gran Canaria 35, 35100 San Bartolomé de Tirajana | Tel: +34 828 91 02 12
+Öffnung: Di–Fr 07:00–16:00, Fr+Sa auch 19:00–22:00/22:30, So+Mo geschlossen
+Preis: EUR 10–20 p.P.
+ACHTUNG: Am Dienstag nur bis 16:00 Uhr offen – kein Abendessen möglich!
+HINWEIS FÜR LUIS: Fischoptionen vorhanden (Cazón, Garnelen)
+Küche: Tapas sind das Highlight – Fleischbällchen, Cazón, Garnelenküchlein und Russian Salad besonders beliebt. Portionen grosszügig, auch bei Tapas. Frühstück und einfache Gerichte (Sandwiches, Eier) ebenfalls gut. Einzelne Gäste bemängeln, dass Garnelen oder Olivenöl manchmal etwas zu salzig sein können. Insgesamt hausgemacht und authentisch.
+Service: Sehr freundlich und persönlich, oft durch die Besitzer selbst geprägt. Empfehlungen werden erklärt, Gäste fühlen sich willkommen – zu Stosszeiten kann es etwas hektisch werden.
+Ambiente: Klein, schlicht, gemütlich. Kein Fine Dining – ein Ort zum entspannten Sitzen und guten Unterhalten. Viele Einheimische essen hier.
+Fazit: Kein perfektes Hochglanz-Restaurant, sondern ein ehrlicher, leicht ungeschliffener Ort mit sehr guter Küche und herzlichem Service. Ideal für alle, die authentisches Essen statt Touristenkulisse suchen.
+
+5. El Mocan by Relax
+Bewertung: 4.9★ (944 Bewertungen) | Stil: Steakhouse, Holzkohlegrill, Tischgrill-Erlebnis
+Adresse: Av. Touroperador Tui 8, Sonnenland, 35100 San Bartolomé de Tirajana | Tel: +34 653 60 46 70
+Öffnung: Mo+Mi+Do 18:00–23:00, Fr+So 13:00–23:00, Sa+Di geschlossen
+Preis: EUR 30–50 p.P. (etwas teurer als die anderen)
+HINWEIS FÜR LUIS: Eher fleischlastig, wenig vegetarische Optionen – nicht ideal für Luis
+Küche: Im Zentrum steht das Steak – auf Holzkohle gegrillt, extrem zart und intensiv im Geschmack. Besonders beliebt: Lomo Alto, Entraña, Txuleton (Grösse wählbar). Highlight: Fleisch kommt vorgegart an den Tisch und wird dort auf einem kleinen Holzkohlegrill fertig gegart inkl. Tranchieren durch den Service. Beilagen überzeugen: frisch gebackenes Brot mit Aioli und Chimichurri, Chipotle-Mayo, Jack-Daniel's-Sauce, Empanadas als Vorspeise. Auch Sangria und kleine Extras zum Abschluss bleiben positiv in Erinnerung.
+Service: Aufmerksam, herzlich und kompetent. Empfehlungen sitzen, Stimmung locker und professionell. Service trägt wesentlich zum Gesamterlebnis bei.
+Ambiente: Lebendig aber hochwertig – Innenbereich und Terrasse. Auch ausserhalb der Hochsaison gut besucht.
+Fazit: Echtes Highlight für Fleischliebhaber. Hervorragende Steaks, durchdachtes Tischgrill-Konzept, top Service. Für Luis als Vegetarier eher schwierig – für die anderen vier ein Erlebnis.
+
+6. El Saloon
+Bewertung: 4.7★ (634 Bewertungen) | Stil: Tapas, vegan/vegetarisch/klassisch
+Adresse: Av. de Gran Canaria 34, 35100 Maspalomas | Tel: +34 928 77 23 86 | Web: https://elsaloongc.com
+Öffnung: Do–Mo 16:00–22:00, Di+Mi geschlossen
+Preis: EUR 20–30 p.P.
+IDEAL FÜR LUIS: Grosse vegetarische und vegane Auswahl, auch Fischoptionen
+Küche: Grosse und kreative Auswahl – von Klassikern wie Albóndigas, Patatas Bravas, Garnelen bis zu veganen Varianten wie vegane Chorizo, Linsen mit Süsskartoffelpüree oder Chili sin Carne. Viele Gerichte flexibel in vegan, vegetarisch oder klassisch. Qualität durchgehend überzeugend: frisch, intensiv im Geschmack, Liebe zum Detail auch bei Brot, Aioli und Sangria (mit frischem statt Dosenobst). Schärfegrade klar gekennzeichnet.
+Service: Herzlich, entspannt und mehrsprachig. Aufmerksam aber bewusst unaufgeregt – ideal für lange, gemütliche Abende. Bei hoher Auslastung etwas Wartezeit möglich, Reservierung empfohlen.
+Ambiente: Gemütlich und stilvoll dekoriert, Innenbereich und Terrasse. Ruhige Atmosphäre, man kann problemlos mehrere Stunden verbringen.
+Fazit: Echtes Wohlfühl-Restaurant mit aussergewöhnlich starker veganer/vegetarischer Auswahl und hervorragenden Tapas. Für die ganze Gruppe ideal – Luis ist bestens versorgt, die Fleischesser auch.
 
 === NIGHTLIFE & BARS – MASPALOMAS / PLAYA DEL INGLÉS ===
 Allgemein: Bars offen bis 02:00 Uhr, Clubs bis 06:00 Uhr. Bestes Gebiet: Maspalomas und Playa del Inglés. Viele Clubs in Shoppingcentern (z.B. Yumbo).
@@ -291,16 +365,60 @@ VELO & STRAVA:
 
 FUSSBALL-WISSEN (subtil einbauen wenn passend):
 - Döme und Maxi sind FCZ-Fans | Sandro ist Basel-Fan (aber hasst GCN wie alle ausser Sandro-eigene Meinung)
-- Luis mag Bayern München | Vujo ist kein ausgeprägter Fussballfan
+- Luis mag Bayern München – leidenschaftlich, seit Kindheit, war schon oft live in der Allianz Arena
+- Vujo ist kein ausgeprägter Fussballfan
 - GC (Grasshopper) ist bei fast allen unbeliebt – das ist immer gutes Stoff für einen Witz
-- Sandro mag Basel – das kann man bei anderen (Döme, Maxi) auch mal einwerfen`;
+- Sandro mag Basel – das kann man bei anderen (Döme, Maxi) auch mal einwerfen
+
+CHAMPIONS LEAGUE & DROGBA-TRAUMA:
+- Wenn Bayern oder das CL-Spiel (Real vs. Bayern, 7. April) erwähnt wird, darfst du gelegentlich auf 2012 anspielen
+- Beispiele: "Ein Glück für Luis, dass Drogba nicht mehr auf dem Platz steht" oder "Bayern ist gross in der CL – wenn man mal von 2012 absieht, als Schweini seinen Elfer verschoss und Drogba in der 88. Minute ausglich..."
+- Nicht bei jeder Bayern-Erwähnung – aber wenn es passt, ist es ein guter Witz
+- Luis kennt diesen Schmerz – er weiss, dass du es weisst
+
+ESSEN & LUIS ALS VEGETARIER:
+- Luis ist vegetarisch, isst aber Fisch (pescetarisch)
+- Bei Restaurantempfehlungen immer prüfen ob Luis gut bedient ist
+- El Saloon und El Rinconcito Andaluz sind gut für Luis (Fisch/Vegi-Optionen)
+- El Mocan (Steakhouse) ist eher nicht ideal für Luis – darauf hinweisen
+- Die anderen vier essen alles`;
 
 export default function GranCanariaApp() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [listening, setListening] = useState(false);
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
+  const recognitionRef = useRef(null);
+
+  function startListening() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Dein Browser unterstützt keine Spracheingabe. Bitte Chrome oder Safari verwenden.");
+      return;
+    }
+    const recognition = new SpeechRecognition();
+    recognition.lang = "de-CH";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+    recognitionRef.current = recognition;
+
+    recognition.onstart = () => setListening(true);
+    recognition.onend = () => setListening(false);
+    recognition.onerror = () => setListening(false);
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      setInput(transcript);
+      setTimeout(() => sendMessage(transcript), 100);
+    };
+    recognition.start();
+  }
+
+  function stopListening() {
+    recognitionRef.current?.stop();
+    setListening(false);
+  }
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -477,11 +595,10 @@ export default function GranCanariaApp() {
               color: m.role === "user" ? "#0a1628" : "rgba(255,255,255,0.9)",
               fontSize: 14.5,
               lineHeight: 1.6,
-              whiteSpace: "pre-wrap",
               fontFamily: m.role === "user" ? "inherit" : "'Georgia', serif",
               fontWeight: m.role === "user" ? "600" : "normal",
             }}>
-              {m.content}
+              {m.role === "user" ? m.content : renderMarkdown(m.content)}
             </div>
           </div>
         ))}
@@ -550,6 +667,28 @@ export default function GranCanariaApp() {
               fontFamily: "inherit",
             }}
           />
+          {/* Mikrofon-Button */}
+          <button
+            onClick={listening ? stopListening : startListening}
+            disabled={loading}
+            title={listening ? "Aufnahme stoppen" : "Spracheingabe starten"}
+            style={{
+              width: 40, height: 40,
+              borderRadius: "50%",
+              background: listening
+                ? "linear-gradient(135deg, #ff6b6b, #cc0000)"
+                : "rgba(255,255,255,0.1)",
+              border: "none",
+              cursor: loading ? "default" : "pointer",
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontSize: 18,
+              transition: "all 0.2s",
+              flexShrink: 0,
+              animation: listening ? "micPulse 1s ease-in-out infinite" : "none",
+            }}
+          >
+            🎙️
+          </button>
           <button
             onClick={() => sendMessage()}
             disabled={loading || !input.trim()}
@@ -576,6 +715,10 @@ export default function GranCanariaApp() {
         @keyframes pulse {
           0%, 100% { transform: scale(1); opacity: 0.4; }
           50% { transform: scale(1.3); opacity: 1; }
+        }
+        @keyframes micPulse {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(255,80,80,0.5); }
+          50% { box-shadow: 0 0 0 8px rgba(255,80,80,0); }
         }
       `}</style>
     </div>

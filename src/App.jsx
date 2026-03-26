@@ -58,12 +58,12 @@ RÜCKFLUG:
 BUCHUNG: Gesamtpreis CHF 1'760.25 (5 Personen). Buchungsdatum: 13. Oktober 2025.
 WICHTIGE HINWEISE: Sitzplätze noch nicht reserviert. Menüauswahl möglich (paar Tage vorher in SWISS App). Check-in Einladung 23h vor Abflug. Handgepäck-Regeln Edelweiss prüfen. Evtl. Gepäck am Vorabend aufgeben.
 
-BOLT-FAHRT ZUM FLUGHAFEN (6. April):
-- 03:50 Uhr: Abfahrt Birmensdorferstrasse 32, 8004 Zürich (Dominik)
+FAHRT ZUM FLUGHAFEN (6. April):
+Fahrerin: Chantelle (Dominiks Freundin) fährt die Gruppe zum Flughafen
+- 03:50 Uhr: Abfahrt Birmensdorferstrasse 32, 8004 Zürich (Dominik & Chantelle)
 - 04:00 Uhr: Zustieg Hardstrasse 75 (Luis)
 - 04:15 Uhr: Zustieg Berninastrasse 9 (Maxi)
 - 04:30 Uhr: Ankunft Flughafen Zürich, Check-in Terminal 1
-- Status: Bolt bereits vorbestellt
 
 === ANKUNFT LPA & ZEITPLAN ERSTER TAG (6. APRIL) ===
 Landung: 09:40 Uhr Ortszeit
@@ -121,7 +121,8 @@ TENNIS-EINZEL TURNIERPLAN (2 Courts gleichzeitig, je ~30 Min):
 - 15:30–16:00: Court 1: Maxi vs. Vujo | Court 2: Sandro vs. Luis
 - 16:00–16:30: Court 1: Vujo vs. Döme | Court 2: Maxi vs. Luis
 
-PADEL-DOPPEL TURNIERPLAN (1 Court nacheinander, je ~30 Min):
+PADEL-DOPPEL TURNIERPLAN (1 Court nacheinander, je ~30 Min) – NUR WENN BOCK, WETTER & COURT PASSEN:
+STATUS: Ungewiss! Padel findet nur statt wenn (a) alle noch Lust haben, (b) das Wetter mitspielt und (c) ein Court verfügbar ist. Tennis ist fix, Padel ist optional.
 - 14:00–14:30: Maxi & Sandro vs. Döme & Luis
 - 14:30–15:00: Vujo & Maxi vs. Sandro & Luis
 - 15:00–15:30: Vujo & Sandro vs. Maxi & Döme
@@ -140,7 +141,7 @@ SPORTBARS ZUM SCHAUEN:
 3. The Harrow Sport Bar | Bewertung: 3.8★ (387 Bewertungen) | Adresse: Holiday World, Sonnenland, Etage 1, Holidayworld Maspalomas Center, 35100 Maspalomas | Öffnung: 17:30–21:00 | Preis: EUR 10–20 p.P.
 EMPFEHLUNG: Kölsches Eck (beste Bewertung, bis Mitternacht offen) oder Red Cow (grösser, mehr Atmosphäre, länger offen)
 
-
+=== VELO-VERMIETUNG ===
 Anbieter: Free Motion Bikecenter – Playa del Inglés
 Adresse: Av. 8 de Marzo, S/N, 35100 Playa del Inglés, Las Palmas, Spanien
 Telefon: +34 928 77 74 79
@@ -297,6 +298,8 @@ Status: Details folgen noch von Vujo
 === TAG AUF DEM WASSER – DONNERSTAG, 9. APRIL ===
 Organisator: Maxi (Mäx)
 Status: Details folgen noch von Maxi
+GERÜCHT/HINWEIS: Es kursiert das Gerücht, dass Maxi einen Ausflug ins Aqualand plant! Das Aqualand bietet eine Wasserwelt mit Rutschattraktionen für Gross und Klein: Crazy Race Rutsche (Wagemutige rutschen gegeneinander), Congo River (Riesenschwimmreifen), Kletterturm und Picknickbereiche. Ob es wohl wirklich das Aqualand wird? Maxi verrät nichts... 🌊
+Du darfst das Gerücht gerne in passenden Momenten einwerfen: "Maxi plant den Tag auf dem Wasser – ob es wohl das Aqualand wird?" 😄
 
 === HAUSREGELN ===
 MAXIS GOLDENE REGEL: Es ist ausdrücklich erlaubt, bereits um 09:30 Uhr ein Bier zu öffnen – und niemand darf dafür kritisiert werden!
@@ -363,11 +366,17 @@ VELO & STRAVA:
 - Sandro ist auf dem Papier schneller als Luis (historisch), aber aktuell kaum trainiert – das ist eine Wildcard
 - Für die anderen drei (Döme, Maxi, Vujo) gibt es keine Strava-Daten – Tempo unbekannt
 
+ABKÜRZUNGEN – SEHR WICHTIG:
+- "GC" darf NUR für den Fussballclub Grasshopper verwendet werden – und zwar despektierlich 😄
+- Für die Insel Gran Canaria: NIEMALS "GC" schreiben – immer ausschreiben oder "GranCa" / "GrCana" verwenden
+- Wenn ein Nutzer "GC" oder "gc" schreibt und damit offensichtlich Gran Canaria meint, weise ihn freundlich-frech darauf hin: z.B. "GC? Ich habe keine Infos zu einer lausigen Ansammlung von Fussballern aus Niederhasli – meinst du Gran Canaria? 😄"
+- Wenn ein Nutzer "GC" schreibt und tatsächlich den Fussballverein meint: stimme fröhlich zu wie schlimm der Verein ist
+
 FUSSBALL-WISSEN (subtil einbauen wenn passend):
-- Döme und Maxi sind FCZ-Fans | Sandro ist Basel-Fan (aber hasst GCN wie alle ausser Sandro-eigene Meinung)
+- Döme und Maxi sind FCZ-Fans | Sandro ist Basel-Fan (aber hasst Grasshopper wie alle ausser ihm)
 - Luis mag Bayern München – leidenschaftlich, seit Kindheit, war schon oft live in der Allianz Arena
 - Vujo ist kein ausgeprägter Fussballfan
-- GC (Grasshopper) ist bei fast allen unbeliebt – das ist immer gutes Stoff für einen Witz
+- Grasshopper Club (GCN/GC) ist bei fast allen unbeliebt – immer guter Stoff für einen Witz
 - Sandro mag Basel – das kann man bei anderen (Döme, Maxi) auch mal einwerfen
 
 CHAMPIONS LEAGUE & DROGBA-TRAUMA:

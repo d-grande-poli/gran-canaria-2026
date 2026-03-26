@@ -319,6 +319,58 @@ TopCar Mietwagen: +34 828 913 118
 Free Motion Bikecenter: +34 928 77 74 79
 Tennis Parque Romantico: +34 692 17 30 25 / +34 656 83 98 54
 Dominik: +41 79 863 21 57
+
+=== NOTFALL & GESUNDHEIT ===
+Notruf Spanien: 112 (Polizei, Feuerwehr, Ambulanz)
+Nächstes Spital / Krankenhaus:
+- Hospital Universitario de Gran Canaria Dr. Negrín | Adresse: Barranco de la Ballena, s/n, 35010 Las Palmas de Gran Canaria | Tel: +34 928 45 00 00 | Grösstes Spital der Insel, ca. 30 Min vom Bungalow
+- Centro de Salud Maspalomas (Gesundheitszentrum, für nicht lebensbedrohliche Fälle) | Adresse: Av. de Gran Canaria, 35100 Maspalomas | Tel: +34 928 14 31 62 | Näher am Bungalow
+Nächste Apotheken (Farmacias) in der Nähe:
+- Farmacia Maspalomas | Av. de Gran Canaria, Maspalomas | Erkennbar am grünen Kreuz
+- In Spanien sind Apotheken sehr gut ausgestattet, viele Medikamente gibt es ohne Rezept
+- Notfalldienstapotheke (Farmacia de Guardia): Nachts/Wochenende gibt es immer eine offene Apotheke im Turnus – steht an jeder Apotheke angeschrieben
+KRANKENVERSICHERUNG: Alle 5 sollten ihre Schweizer Krankenkassenkarte (KVG) und idealerweise eine Zusatzversicherung für Ausland dabei haben. In der EU gilt die Europäische Krankenversicherungskarte (EKVK) – diese ist auf der Rückseite der meisten Schweizer KV-Karten. Wichtig: Schweizer sind in der EU nicht automatisch voll versichert – Zusatzversicherung empfohlen!
+WICHTIGE HINWEISE:
+- Apotheke = Farmacia (grünes Kreuz)
+- Arzt = Médico | Krankenhaus = Hospital | Notaufnahme = Urgencias
+- Bei Velofahrten: Helmtragen ist in Spanien ausserorts Pflicht
+
+=== SPANISCH-BASICS (für die nicht-Spanischsprecher) ===
+HINWEIS: Sandro spricht gut Spanisch und kann übersetzen. Dominik ist im A1-Kurs (Migros Klubschule). Für alle anderen hier die wichtigsten Phrasen:
+
+BEGRÜSSUNG & HÖFLICHKEIT:
+- Hola = Hallo | Buenos días = Guten Morgen | Buenas tardes = Guten Tag/Abend | Buenas noches = Gute Nacht
+- Por favor = Bitte | Gracias = Danke | De nada = Bitte/Gern geschehen | Perdón = Entschuldigung
+- Sí = Ja | No = Nein | No entiendo = Ich verstehe nicht | ¿Habla alemán/inglés? = Sprechen Sie Deutsch/Englisch?
+
+RESTAURANT & BAR:
+- Una mesa para cinco, por favor = Ein Tisch für fünf, bitte
+- La carta, por favor = Die Speisekarte, bitte
+- ¿Qué recomienda? = Was empfehlen Sie?
+- Sin carne, por favor = Ohne Fleisch, bitte (für Luis!)
+- Con pescado = Mit Fisch | Vegetariano = Vegetarisch
+- Una cerveza, por favor = Ein Bier, bitte 🍺
+- Otra ronda = Noch eine Runde
+- La cuenta, por favor = Die Rechnung, bitte
+- ¿Está incluido el servicio? = Ist das Trinkgeld inbegriffen?
+- ¡Estaba delicioso! = Es war köstlich!
+
+UNTERWEGS & ORIENTIERUNG:
+- ¿Dónde está...? = Wo ist...?
+- A la derecha = Rechts | A la izquierda = Links | Todo recto = Geradeaus
+- ¿Cuánto cuesta? = Was kostet das?
+- ¿Dónde está el baño? = Wo ist die Toilette? (WICHTIG! 😄)
+
+NOTFALL:
+- ¡Ayuda! = Hilfe! | ¡Llame a la policía! = Rufen Sie die Polizei!
+- Necesito un médico = Ich brauche einen Arzt
+- Me duele... = Mir tut... weh | Estoy enfermo = Ich bin krank
+
+TRINKGELD-REGEL SPANIEN:
+- Kein fixer Satz, aber 5–10% ist üblich und geschätzt
+- In einfachen Bars/Cafés: Kleingeld lassen reicht
+- In Restaurants: ~10% bei gutem Service
+- Trinkgeld heisst: Propina
 `;
 
 const SYSTEM_PROMPT = `Du bist der persönliche Reiseassistent für eine Gruppe von 5 Freunden auf Gran Canaria (6.–13. April 2026).
@@ -339,7 +391,7 @@ INFORMATIONEN:
 - Sei kurz, präzise und direkt – keine langen Einleitungen
 - Bei ernsten Fragen (Zeiten, Adressen, Buchungen): ERST die korrekte Info, DANN optional ein Kommentar
 - Wenn eine Information nicht hinterlegt ist, sag das ehrlich – aber gerne mit einem witzigen Kommentar
-- Wenn nach "heute", "morgen", "übermorgen" gefragt wird, frag nach dem aktuellen Datum falls nicht angegeben
+- Das aktuelle Datum und die Uhrzeit werden dir automatisch am Ende des System-Prompts mitgegeben – nutze diese Info wenn jemand nach "heute", "morgen", "jetzt" fragt, ohne nachfragen zu müssen
 - Bei Adressen, Telefonnummern, Zeiten: immer vollständig angeben
 - Du darfst auch Web-Suchen für aktuelle Infos empfehlen (Wetter, aktuelle Öffnungszeiten etc.)
 
@@ -434,7 +486,7 @@ export default function GranCanariaApp() {
   }, [messages]);
 
   const suggestions = [
-    "Was ist heute geplant? (heute = Mi, 8. April)",
+    "Was ist heute geplant?",
     "Wie lange dauert Route 1 für unsere Gruppe?",
     "Wann sind wir realistisch beim Bungalow?",
     "Wer spielt wann Tennis gegen wen?",
@@ -452,6 +504,18 @@ export default function GranCanariaApp() {
     setMessages(newMessages);
     setLoading(true);
 
+    // Aktuelles Datum automatisch ermitteln und in den System-Prompt injizieren
+    const now = new Date();
+    const tage = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+    const monate = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+    const wochentag = tage[now.getDay()];
+    const tag = now.getDate();
+    const monat = monate[now.getMonth()];
+    const jahr = now.getFullYear();
+    const uhrzeit = now.toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit" });
+    const datumInfo = `\n\nAKTUELLES DATUM & UHRZEIT (automatisch): ${wochentag}, ${tag}. ${monat} ${jahr}, ${uhrzeit} Uhr Ortszeit Gran Canaria`;
+    const systemWithDate = SYSTEM_PROMPT + datumInfo;
+
     try {
       const response = await fetch("/api/chat", {
         method: "POST",
@@ -459,7 +523,7 @@ export default function GranCanariaApp() {
         body: JSON.stringify({
           model: "claude-sonnet-4-5",
           max_tokens: 1000,
-          system: SYSTEM_PROMPT,
+          system: systemWithDate,
           messages: newMessages,
         }),
       });
